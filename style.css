@@ -67,7 +67,7 @@ header {
 @media(max-width:500px) {
     .movie-container{
         grid-template-columns: 1fr !important;
-
+grid-gap :5rem !important;
         padding-top:5% ;
     }
 
