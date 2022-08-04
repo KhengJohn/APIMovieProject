@@ -64,6 +64,22 @@ header {
     font-size: 50px;
     
 }
+@media(max-width:500px) {
+    .movie-container{
+        grid-template-columns: 1fr !important;
+
+        padding-top:5% ;
+    }
+
+    .movie-box {
+        width: 100% !important;
+        height: 300px;
+        background-color: #020c0a;
+        display: grid;
+        border-radius: 07px;
+        
+    }
+}
 
 @media(max-width:700px) {
     .search-box > h1 {
