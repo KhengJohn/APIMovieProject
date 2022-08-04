@@ -72,12 +72,19 @@ header {
     }
 
     .movie-box {
-        width: 100% !important;
-        height: 300px;
+        width: 90% !important;
+        height: 350px !important;
         background-color: #020c0a;
         display: grid;
         border-radius: 07px;
+        margin: auto!important;
         
+    }
+    .movie-img {
+        width: 100%;
+        height:250px !important;
+       border-top-right-radius: 05px;
+       border-top-left-radius: 05px;
     }
 }
 
