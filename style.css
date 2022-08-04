@@ -169,8 +169,8 @@ margin: auto;
     width: 95%;
     margin: auto;
     color: #57cbff;
-margin-left: 16px;
-margin-bottom: 3px; 
+    margin-left: 16px;
+    margin-bottom: 3px; 
 }
 
 .movie-title {
@@ -272,4 +272,21 @@ margin-bottom: 3px;
 }
 .movie-info_list  ul > li  {
     padding: 5px;
+}
+
+
+@media (max-width:700px) {
+    .movie-info_box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+       
+    }
+
+    .movie-info_img {
+        width: 100%;
+        height: 310px;
+        
+    }
 }
