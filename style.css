@@ -99,7 +99,7 @@ grid-gap :5rem !important;
 
     .movie-title {
         position: absolute;
-        bottom: 22% !important;
+        bottom: 18% !important;
        
         width: 95%;
         margin: auto;
@@ -176,7 +176,7 @@ margin: auto;
 .movie-title {
 text-align: center;
 position: absolute;
-bottom: 18%;
+bottom: 16%;
 font-size: 18px;
 position: absolute;
 width: 95%;

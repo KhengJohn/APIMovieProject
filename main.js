@@ -52,6 +52,7 @@ function getMovie(){
             </div>
             <div class="movie-info_list">
                 <h2 class="movie-info_title">${movie.Title}</h2>
+                <p class="">${movie.Plot}</p>
                 <ul>
                     <li> <b>Genre: </b>${movie.Genre} </li>
                     <li> <b>Released: </b> ${movie.Year}</li>
