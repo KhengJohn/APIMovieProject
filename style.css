@@ -34,7 +34,9 @@ header {
     margin-bottom: 5px;
 }
 
-
+form {
+    display: flex;
+}
 
 #searchForm {
     margin: auto;
@@ -47,6 +49,19 @@ header {
     padding: 01px;
     border-radius: 05px;
    
+}
+
+.btn-search{
+    background-color: #020c0a;
+    border: none;
+}
+
+.search-img:hover{
+ width: 22px;
+}
+
+.search-img{
+    width: 20px;
 }
 
 .movie-container {

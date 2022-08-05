@@ -6,6 +6,10 @@ $(document).ready(() => {
     });
 }); 
 
+const btnEl = document.getElementById('search-btn');
+btnEl.addEventListener('click', getMovies)
+
+
 function getMovies(searchText){
     axios.get('https://www.omdbapi.com?s='+searchText +'&apikey=9be27fce')
     .then( (response) => {
