@@ -62,7 +62,7 @@ function getMovie(){
                     <li> <b>Writer: </b> ${movie.Writer}</li>
                     <li> <b>Actors: </b> ${movie.Actors}</li>
                 </ul>
-                <a onclick="movieSelected('${movie.imdbID}')" class= "btn-movie_info" href="#">View in IMDB</a>
+                <a  class= "btn-movie_info" href="http://imdb.com/title/${movie.imdbID}" target="_blank" >View in IMDB</a>
             </div>
             
            </div>
