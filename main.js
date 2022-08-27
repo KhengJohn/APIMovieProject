@@ -58,15 +58,17 @@ function getMovie(){
                 <h2 class="movie-info_title">${movie.Title}</h2>
                 <p class="">${movie.Plot}</p>
                 <ul>
-                    <li> <b>Genre: </b>${movie.Genre} </li>
-                    <li> <b>Released: </b> ${movie.Year}</li>
-                    <li> <b>Duration: </b>${movie.Runtime} </li>
-                    <li> <b>IMDB Rating: </b>${movie.imdbRating} </li>
-                    <li> <b>Director: </b>${movie.Director} </li>
-                    <li> <b>Writer: </b> ${movie.Writer}</li>
-                    <li> <b>Actors: </b> ${movie.Actors}</li>
+                    <li class="genre-li"> <b>Genre: </b>${movie.Genre} </li>
+                    <li class="released-li"> <b>Released: </b> ${movie.Year}</li>
+                    <li class="duration-li"> <b>Duration: </b>${movie.Runtime} </li>
+                    <li class="imdbrating-li"> <b>IMDB Rating: </b>${movie.imdbRating} </li>
+                    <li class="director-li"> <b>Director: </b>${movie.Director} </li>
+                    <li class="writer-li"> <b>Writer: </b> ${movie.Writer}</li>
+                    <li class="actor-li" > <b>Actors: </b> ${movie.Actors}</li>
                 </ul>
                 <a  class= "btn-movie_info" href="http://imdb.com/title/${movie.imdbID}" target="_blank" >View in IMDB</a>
+               
+                
             </div>
             
            </div>

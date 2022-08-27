@@ -6,32 +6,62 @@ body {
 
 nav {
     height: 3em;
-    background-color: #020c0a;
-    color: white;
-    border-bottom: 0.1em solid white;
+    /* background-color: #020c0a; */
+    color: #af0000;
+    /* border-bottom: 0.1em solid white; */
     justify-content: space-between;
     display: flex;
+    position: absolute;
 }
 
 header {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 600;
     padding: 15px;
+}
+.head-section{
+        background-image: url('img/fall-movies-index-1628968089-1536x717.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.head-section::before{
+    content: "";
+    background-image: radial-gradient(#020c0a8a,#020c0ace,#020c0af8);
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 20em;
+    display: block;
+    position: absolute;
 }
 
 .search-box {
+
     width: 80%;
     margin: auto;
-    margin-top: 3%;
-    background-color:#020c0a;
-    height: 8em;
+    margin-top: 0%;
+    /* background-color:#020c0a; */
+    height:20em;
     border-radius: 05px;
+    position: relative;
 }
 
-.search-box > h1 {
+.content{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.search-box div h1 {
     color: white;
     text-align: center;
-    padding-top: 26px;
+    padding-top: 30px;
     margin-bottom: 5px;
+    font-size: 30px;
 }
 
 form {
@@ -44,24 +74,32 @@ form {
 }
 
 .search-input {
+    font-size: 18px;
     width: 100%;
-    height: 2em;
-    padding: 01px;
-    border-radius: 05px;
+    height: 30px;
+    padding: 03px;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
    
 }
 
 .btn-search{
-    background-color: #020c0a;
+    background-color: #af0000;
     border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    height: 40px;
 }
 
-.search-img:hover{
+/* .search-img:hover{
  width: 22px;
-}
+} */
 
 .search-img{
-    width: 20px;
+    width: 24px;
+    padding: 1px 10px;
+   
 }
 
 .movie-container {
@@ -71,6 +109,7 @@ form {
     grid-gap:1rem;
     padding: 10%;
     padding-top:2% ;
+    margin-top: 20px;
     
 }
 
